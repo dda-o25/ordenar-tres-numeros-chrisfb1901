@@ -32,13 +32,13 @@ elif num2 >= num1 and num2 >= num3:
         medio = num3
         menor = num1
 
-else: num3 >= num2 and num3 >= num1
-mayor = num3
-if num2 >= num1:
+else: 
+     mayor = num3
+     if num1 >= num2:
+        medio = num1
+        menor = num2    
+     else:
         medio = num2
         menor = num1
-else:
-        medio = num1
-        menor = num2
 # Salidas
-print(mayor, medio, menor)
+print("Números ordenados:",mayor, medio, menor)
